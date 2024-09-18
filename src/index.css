@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .center-element{
+    @apply flex items-center justify-center
+  }
+  .container {
+    @apply mx-auto p-5;
+  }
+  .btn {
+    @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-300 rounded-[30px];
+  }
+}
+
+* {
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  background-color: #181e2a;
+}
